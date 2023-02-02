@@ -53,15 +53,7 @@
       "HouseNo": "",
       "Country": "",
       "id": 6
-    },
-    {
-      "Name": "naquee",
-      "Age": "22",
-      "City": "abc",
-      "State": "dafd",
-      "HouseNo": "11",
-      "Country": "India",
-      "id": 7
     }
+    
   ]
 }
