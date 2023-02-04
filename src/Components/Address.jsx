@@ -162,8 +162,8 @@ function Address() {
               <h4>{data.Country}</h4>
 
               
-              <Button cursor={"pointer"} onClick={()=>handleDelete(data.id)}>Delete</Button>
-              <Button onClick={onOpen} cursor={"pointer"} >Edit</Button>
+              <Button background={"green"} cursor={"pointer"} onClick={()=>handleDelete(data.id)}>Delete</Button>
+              <Button  background={"green"} onClick={onOpen} cursor={"pointer"} >Edit</Button>
               
   <Modal isOpen={isOpen} onClose={onClose}>
     <ModalContent>        
@@ -234,7 +234,7 @@ function Address() {
        </Center>
        <br/>
        <Center>
-       <Button onClick={()=> handleEdit(address,data.id)} type={"submit"}> Submit </Button>
+       <Button backgroundColor={"green"} onClick={()=> handleEdit(address,data.id)} type={"submit"}> Submit </Button>
        </Center>
        </form>
        <Center>
